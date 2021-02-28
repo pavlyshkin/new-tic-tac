@@ -16,6 +16,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 #area {
@@ -72,11 +73,15 @@ body {
   width: 150px;
   height: 20px;
   background-color: tomato;
-  color: teal;
+  color: black;
   text-align: center;
   cursor: pointer;
 }
-
+#table {
+  position: absolute;
+  right: 25px;
+  top: 28%;
+}
 table {
   border: 3px solid black;
 }
@@ -92,4 +97,7 @@ td {
 }
 .whose-move {
   font-size: 25px;
+  position: absolute;
+  top: 28%;
+  left: 40px;
 }
