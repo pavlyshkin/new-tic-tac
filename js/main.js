@@ -67,4 +67,3 @@ overlay.addEventListener('click', closeModal);
 
 btnClose.addEventListener('click', closeModal);
 
-
